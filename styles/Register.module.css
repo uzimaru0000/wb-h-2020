@@ -1,0 +1,28 @@
+.wrapper {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.scroll {
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.btn {
+  font-size: 24px;
+  padding: 0.5rem 0;
+  border-radius: 1rem;
+  border: none;
+  color: white;
+  background-color: #00adcc;
+}
+
+.img {
+  width: auto;
+  height: 200px;
+}
